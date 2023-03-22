@@ -163,9 +163,18 @@ body {
     font-size: 32px;
 }
 
+.contact .media div {
+    display: flex;
+    align-items: center;
+}
+
 .contact .media img {
     padding-right: 32px;
     margin-top: 16px;
+}
+
+.contact .media img:hover {
+    opacity: 75%;
 }
 
 .contact .contact-right {
