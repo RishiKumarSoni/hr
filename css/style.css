@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
 
     max-width: 1400px;
-    background: #eee;
+    background: #fff;
 }
 
 .head {
@@ -54,7 +54,7 @@ body {
 .navigation ul li:hover {
     border-bottom: 2px solid #057485;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #eee;
 }
 
 .search {
@@ -62,6 +62,8 @@ body {
     cursor: pointer;
     margin-left: 32px;
 }
+
+/* header ends here */
 
 .banner {
     background-image: url("../assets/hero_home.jpg");
@@ -84,6 +86,8 @@ body {
     padding-top: 90px;
     padding-left: 16%;
 }
+
+/* banner ends here */
 
 .solution {
     padding: 50px 100px;
@@ -216,6 +220,8 @@ aside {
     cursor: pointer;
 }
 
+/* solution ends here */
+
 .application {
     padding: 50px 100px;
     text-align: center;
@@ -274,6 +280,8 @@ aside {
     background-color: #057485;
 }
 
+/* application ends here */
+
 .position {
     margin: 50px 0px;
     background-image: url("../assets/service2.jpg");
@@ -320,6 +328,8 @@ aside {
 .p-button:hover {
     cursor: pointer;
 }
+
+/* position ends here */
 
 .article {
     padding: 50px;
@@ -449,6 +459,8 @@ aside {
     background-color: #057485;
 }
 
+/* article ends here */
+
 .newsletter a {
     text-decoration: none;
     color: #000;
@@ -546,6 +558,8 @@ aside {
     padding-top: 16px;
     opacity: 70%;
 }
+
+/* newsletter ends here */
 
 .footer a {
     text-decoration: underline;
