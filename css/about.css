@@ -304,6 +304,56 @@ body {
 
 /* experience ends here */
 
+.faceLeft {
+    background-image: url("../assets/hero_home.jpg");
+    background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+    margin: 100px 0;
+}
+
+.faceLeft .leftText {
+    color: #fff;
+    padding: 150px 0 0 450px;
+    width: 55%;
+}
+
+.faceLeft .leftText span{
+    font-size: 64px;
+    line-height: 72px;
+    /* font-weight: 600; */
+}
+
+.faceLeft .leftText p {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 100;
+    margin-top: 12px;
+}
+
+.faceLeft .leftText button {
+    padding: 16px 28px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #057485;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-weight: 6      00;
+    transition: all 0.4s ease-in-out;
+}
+
+.faceLeft .leftText button:hover {
+    color: #057485;
+    background-color: #fff;
+    border: 1px solid #057485;
+}
+
+/* faceRight ends here */
+
+
+/* faceLeft ends here */
+
 .application {
     padding: 50px 100px;
     text-align: center;
@@ -534,6 +584,54 @@ body {
     width: 80%;
 }
 /* business ends herer */
+
+.faceRight {
+    background-image: url("../assets/hero_home.jpg");
+    background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+
+    margin: 100px 0;
+}
+
+.faceRight .rightText {
+    color: #fff;
+    padding: 200px 0 0 50px;
+    width: 55%;
+}
+
+.faceRight .rightText span{
+    font-size: 64px;
+    line-height: 72px;
+    /* font-weight: 600; */
+}
+
+.faceRight .rightText p {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 100;
+    margin-top: 12px;
+}
+
+.faceRight .rightText button {
+    padding: 16px 28px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #057485;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+
+.faceRight .rightText button:hover {
+    color: #057485;
+    background-color: #fff;
+    border: 1px solid #057485;
+}
+
+/* faceRight ends here */
 
 .footer a:hover {
     opacity: 70%;
